@@ -72,7 +72,7 @@ class PokemonTextField extends StatelessWidget {
           ),
         ),
         labelText: labelText,
-        labelStyle: labelTextStyle ?? TextStyles.labelMedium,
+        labelStyle: labelTextStyle ?? TextStyles.labelSmall,
         errorText: errorText,
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(8.r),

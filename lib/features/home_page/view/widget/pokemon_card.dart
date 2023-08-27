@@ -190,7 +190,6 @@ class _PokemonCardViewState extends State<PokemonCardView> {
                 Positioned(
                   bottom: 8.w,
                   child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Padding(
                         padding: const EdgeInsets.only(
@@ -204,8 +203,8 @@ class _PokemonCardViewState extends State<PokemonCardView> {
                             style: TextStyle(
                               color: Colors.white,
                               letterSpacing: 0.2.sp,
-                              fontSize: 14.sp,
-                              height: 23.sp / 14.sp,
+                              fontSize: 14.h,
+                              height: 23.h / 14.h,
                               fontWeight: FontWeight.w400,
                               fontFamily: 'Poppins',
                             ),
